@@ -224,6 +224,17 @@ main {
 }
 /* sponsor part css end  */
 
+/* footer part css start  */
+.footer{
+    max-width: 1440px;
+    margin: 50px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 20px 0;
+    text-align: center;
+}
+/* footer part css end  */
+
 
 
 
@@ -287,6 +298,12 @@ main {
     .sponsor_image{
         text-align: center;
     }
+    .footer{
+        margin: 20px 20px;
+    }
+    .footer p{
+        font-size: 0.8rem;
+    }
 }
 
 /* small device responsive end  */
@@ -341,6 +358,12 @@ main {
     }
     .sponsor_image{
         text-align: center;
+    }
+    .footer{
+        margin: 20px 20px;
+    }
+    .footer p{
+        font-size: 0.8rem;
     }
 }
 
