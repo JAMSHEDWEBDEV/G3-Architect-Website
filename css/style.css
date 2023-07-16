@@ -211,6 +211,19 @@ main {
 
 /* facts part css end  */
 
+/* sponsor part css start  */
+.sponsor_content{
+    text-align: center;
+}
+.sponsor_image_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .sponsor_image img{
+    margin: 50px 50px;
+}
+/* sponsor part css end  */
+
 
 
 
@@ -225,7 +238,8 @@ main {
     nav,
     .team_container,
     .features_container,
-    .facts_container {
+    .facts_container,
+    .sponsor_image_container {
         flex-direction: column;
     }
 
@@ -267,6 +281,12 @@ main {
     .facts_box{
         margin-bottom: 15px;
     }
+    .sponsor_content{
+        padding:0 20px;
+    }
+    .sponsor_image{
+        text-align: center;
+    }
 }
 
 /* small device responsive end  */
@@ -280,7 +300,8 @@ main {
     nav,
     .team_container,
     .features_container,
-    .facts_container{
+    .facts_container,
+    .sponsor_image_container{
         flex-direction: column;
     }
 
@@ -317,6 +338,9 @@ main {
     }
     .facts_box{
         margin-bottom: 15px;
+    }
+    .sponsor_image{
+        text-align: center;
     }
 }
 
