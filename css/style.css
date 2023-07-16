@@ -168,18 +168,48 @@ main {
     top: -90px;
     left: -50px;
 }
-.feature_btn h1{
-   color: #FFF;
-   font-size: 3.5rem;
-   font-weight: 700;
+
+.feature_btn h1 {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 700;
 }
-.feature_btn p{
+
+.feature_btn p {
     color: #FFF;
     font-size: 1.8rem;
     font-weight: 500;
 }
 
 /* feature part css end  */
+
+/* facts part css start  */
+.facts{
+    margin-bottom: 100px;
+}
+.facts_container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts_box {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px;
+    text-align: center;
+}
+.facts_box h1{
+     color: #424242;
+     font-size: 3rem;
+     font-weight: 600;
+     margin: 20px 0;
+}
+.facts_box p{
+   color: #727272;
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+
+/* facts part css end  */
 
 
 
@@ -194,7 +224,8 @@ main {
 
     nav,
     .team_container,
-    .features_container {
+    .features_container,
+    .facts_container {
         flex-direction: column;
     }
 
@@ -213,18 +244,28 @@ main {
     .team_content {
         margin-top: 20px;
     }
+
     .feature_content {
         padding: 0 30px;
     }
-    .feature_image{
+
+    .feature_image {
         margin: 0;
     }
-    .feature_image img{
+
+    .feature_image img {
         width: 90%;
         margin-left: 30px;
     }
-    .feature_btn{
+
+    .feature_btn {
         left: 50px;
+    }
+    .facts{
+        padding: 0 20px;
+    }
+    .facts_box{
+        margin-bottom: 15px;
     }
 }
 
@@ -238,7 +279,8 @@ main {
 
     nav,
     .team_container,
-    .features_container {
+    .features_container,
+    .facts_container{
         flex-direction: column;
     }
 
@@ -253,18 +295,28 @@ main {
     .team_content {
         margin-top: 20px;
     }
+
     .feature_content {
         padding: 0 30px;
     }
-    .feature_image{
+
+    .feature_image {
         margin: 0;
     }
-    .feature_image img{
+
+    .feature_image img {
         width: 90%;
         margin-left: 30px;
     }
-    .feature_btn{
+
+    .feature_btn {
         left: 50px;
+    }
+    .facts{
+        padding: 0 20px;
+    }
+    .facts_box{
+        margin-bottom: 15px;
     }
 }
 
