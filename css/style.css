@@ -86,3 +86,26 @@ nav ul li {
 }
 
 /* banner part css end  */
+
+
+
+
+/* responsive part start  */
+/* small device responsive start  */
+@media screen and (max-width:576px) {
+    
+    header{
+        padding: 40px 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top: 30px;
+    }
+    nav ul li{
+        padding-right: 30px;
+    }
+}
+/* small device responsive end  */
+/* responsive part end  */
