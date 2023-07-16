@@ -1,11 +1,88 @@
 /* google font link start  */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 /* google font link end  */
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* shared style code start   */
+.common_title {
+    color: #131313;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.common_description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.btn_primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* shared style code end   */
+/* header part css start  */
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 40px;
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* header part css end  */
+/* banner part css start  */
+.banner_content {
+    max-width: 550px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.banner_content .common_title {
+    font-size: 3rem;
+}
+
+.banner_image img {
+    width: 100%;
+}
+
+/* banner part css end  */
